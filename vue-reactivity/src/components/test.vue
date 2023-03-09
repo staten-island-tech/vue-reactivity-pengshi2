@@ -1,5 +1,5 @@
 <template>
-  <div class="header">BANSAJADASSDASD</div>
+  <h1>{{ message }}</h1>
 </template>
 
 <script>
