@@ -2,12 +2,14 @@
 import test from "../components/test.vue";
 
 export default {
-  components: {},
+  components: {
+    test,
+  },
 };
 </script>
 
 <template>
-  <div class="Shop">
-    <h1>nozama</h1>
+  <div>
+    <test />
   </div>
 </template>

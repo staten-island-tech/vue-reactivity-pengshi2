@@ -1,15 +1,15 @@
-<template>
-  <h1>{{ message }}</h1>
-</template>
-
 <script>
 export default {
   data() {
     return {
-      message: "beans",
+      count: 0,
     };
   },
 };
 </script>
+
+<template>
+  <button @click="count++">You clicked me {{ count }} times!</button>
+</template>
 
 <style></style>
