@@ -1,16 +1,17 @@
 <script>
-import test from "../components/test.vue";
-import inventory from "../components/inventory.vue";
+import storeInventory from "../components/storeInventory.vue";
 
 export default {
   components: {
-    test,
+    storeInventory,
   },
 };
 </script>
 
 <template>
-  <test />
+  <li v-for="item in items">
+    {{ item.name }}
+  </li>
 </template>
 
 <style></style>

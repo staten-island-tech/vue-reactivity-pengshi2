@@ -1,15 +1,11 @@
 <script>
-import test from "../components/test.vue";
-
 export default {
-  components: {
-    test,
-  },
+  components: {},
 };
 </script>
 
 <template>
-  <div>
-    <test />
-  </div>
+  <li v-for="item in items">
+    {{ item.name }}
+  </li>
 </template>
