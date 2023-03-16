@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-  <li v-for="item in items">
+  <li v-for="item in list">
     {{ item.name }}
   </li>
 </template>
