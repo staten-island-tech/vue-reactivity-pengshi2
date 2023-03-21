@@ -1,5 +1,5 @@
 <script>
-import storeInventory from "../components/storeInventory.vue";
+import storeInventory from "../components/things/storeInventory.vue";
 
 export default {
   components: {
