@@ -1,17 +1,9 @@
-<script>
-import storeInventory from "../components/things/storeInventory.vue";
-
-export default {
-  components: {
-    storeInventory,
-  },
-};
-</script>
-
 <template>
-  <li v-for="item in list">
-    {{ item.name }}
-  </li>
+  <div></div>
 </template>
+
+<script>
+export default {};
+</script>
 
 <style></style>

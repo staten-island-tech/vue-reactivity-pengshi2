@@ -3,9 +3,10 @@ export default {
   data() {
     return {};
   },
+  components: { StoreInventory },
 };
 import { RouterLink, RouterView } from "vue-router";
-import storeInventory from "./components/things/storeInventory.vue";
+import StoreInventory from "./components/storeInventory.vue";
 </script>
 
 <template>
