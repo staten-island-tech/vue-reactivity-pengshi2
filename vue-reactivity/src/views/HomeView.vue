@@ -123,4 +123,9 @@ export default {
   justify-content: center;
   scale: 80%;
 }
+
+body,
+html {
+  background-color: red;
+}
 </style>
