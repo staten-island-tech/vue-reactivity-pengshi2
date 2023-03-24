@@ -1,10 +1,10 @@
 <template>
   <div class="coolcard">
     <h2>{{ name }}</h2>
-    <p class="cost">${{ price }}</p>
+    <p class="price">${{ price }}</p>
     <img :src="getImage" alt="" />
     <p class="description">{{ description }}</p>
-    <p class="type">{{ type }}</p>
+    <p class="type">Type: {{ type }}</p>
   </div>
 </template>
 

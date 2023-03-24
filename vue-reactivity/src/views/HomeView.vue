@@ -81,10 +81,11 @@ export default {
         },
         {
           id: 9,
-          name: "Novelkeys X Kaihl Sherbert",
+          name: "Cherry MX Brown",
           price: 0.45,
-          type: "Clicky",
-          description: "lorem",
+          type: "Tactile",
+          description:
+            "The characteristic of this tactile switch is characterized by a noticeable feedback. The noiseless guidance of the CHERRY MX Brown trains the sure instinct and helps to act tactically and strategically.",
           image: "",
         },
         {
@@ -93,7 +94,7 @@ export default {
           price: 1.3,
           type: "Linear",
           description:
-            "Roselio silents are the quietest linear switches on the market, perfect for a work enviorment while still being smooth.",
+            "Roselio silents are known for their striking pink stems, and also being the quietest linear switches on the market, perfect for a work enviorment while still being smooth. ",
           image: "",
         },
       ],
