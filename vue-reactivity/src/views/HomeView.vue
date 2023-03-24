@@ -9,30 +9,29 @@ export default {
         {
           id: 1,
           name: "Gateron Red",
-          price: 0.35,
           type: "Linear",
+          price: 0.35,
           description:
-            "Perfect entry level linear switches for people just getting into mechanichal keyboards. They are cheap and smooth.",
-          image:
-            "https://s7d1.scene7.com/is/image/mcdonalds/DC_202006_0003_Cheeseburger_StraightBun_832x472:1-3-product-tile-desktop? wid=765&hei=472&dpr=off",
+            "Gateron red is the most commonly used Gateron switch because it is a linear switch, making the typing sound quieter. The pressure is more moderate, light, and prolonged periods of typing will not feel tired. They are suitable for a variety of scenarios and also suitable for most people to use.",
+          image: "",
         },
         {
           id: 2,
           name: "Kaihl Box Creams",
           price: 1.5,
           type: "Linear",
-          description: "lorem",
-          image:
-            "https://s7d1.scene7.com/is/image/mcdonalds/DC_202006_0003_Cheeseburger_StraightBun_832x472:1-3-product-tile-desktop?wid=765&hei=472&dpr=off",
+          description:
+            "Known for their ultra-smooth travel, Cream switches are a top choice among linear fans in search of a truly seamless typing experience.",
+          image: "",
         },
         {
           id: 3,
           name: "Kaihl Box Jades",
           price: 0.4,
           type: "Clicky",
-          description: "lorem",
-          image:
-            "https://s7d1.scene7.com/is/image/mcdonalds/DC_202006_0003_Cheeseburger_StraightBun_832x472:1-3-product-tile-desktop?wid=765&hei=472&dpr=off",
+          description:
+            "Known for being extremely clicky and tactile, these switches are very loud and satisfying, great for typing but not so much gaming.",
+          image: "",
         },
         {
           id: 4,
@@ -40,9 +39,8 @@ export default {
           price: 1.1,
           type: "Tactile",
           description:
-            "lorem ipsum sdijasidjsdjsajsdoas  ojdsoas jsad sodjsaod dojsad osajdosd saodj",
-          image:
-            "https://s7d1.scene7.com/is/image/mcdonalds/DC_202006_0003_Cheeseburger_StraightBun_832x472:1-3-product-tile-desktop?wid=765&hei=472&dpr=off",
+            "Known as one of the most tactile switches the market has to offer, Zealios V2 are rather expensive however.",
+          image: "",
         },
         {
           id: 5,
@@ -51,8 +49,7 @@ export default {
           type: "Linear",
           description:
             "Linear switches for people looking for quality switches while on a tight budget. Well renowed for their exceptional performance for price.",
-          image:
-            "https://s7d1.scene7.com/is/image/mcdonalds/DC_202006_0003_Cheeseburger_StraightBun_832x472:1-3-product-tile-desktop?wid=765&hei=472&dpr=off",
+          image: "",
         },
 
         {
@@ -60,27 +57,27 @@ export default {
           name: "Gateron Ink Black V2",
           price: 0.85,
           type: "Linear",
-          description: "lorem",
-          image:
-            "https://s7d1.scene7.com/is/image/mcdonalds/DC_202006_0003_Cheeseburger_StraightBun_832x472:1-3-product-tile-desktop?wid=765&hei=472&dpr=off",
+          description:
+            "Gateron Black Ink V2's are from Gateron's premium line of switches. They feature a unique housing material and coated spring.  These switches are highly regarded within the community, and arguably one of the smoothest linears. ",
+          image: "",
         },
         {
           id: 7,
           name: "Drop Holy Panda X",
           price: 1,
           type: "Tactile",
-          description: "lorem",
-          image:
-            "https://s7d1.scene7.com/is/image/mcdonalds/DC_202006_0003_Cheeseburger_StraightBun_832x472:1-3-product-tile-desktop?wid=765&hei=472&dpr=off",
+          description:
+            "The Holy Panda experience has evolved. Introducing the Holy Panda X: the next iteration of tactile typing, optimized for an authentic feel with unrivaled consistency",
+          image: "",
         },
         {
           id: 8,
           name: "Kaihl Box Royal",
           price: 0.2,
           type: "Tactile",
-          description: "lorem",
-          image:
-            "https://s7d1.scene7.com/is/image/mcdonalds/DC_202006_0003_Cheeseburger_StraightBun_832x472:1-3-product-tile-desktop?wid=765&hei=472&dpr=off",
+          description:
+            "These switches are extremely tactile, almost as much as Zealios V2 while being a fraction of the cost, great for people who want to try out tactile switches.",
+          image: "",
         },
         {
           id: 9,
@@ -88,17 +85,16 @@ export default {
           price: 0.45,
           type: "Clicky",
           description: "lorem",
-          image:
-            "https://s7d1.scene7.com/is/image/mcdonalds/DC_202006_0003_Cheeseburger_StraightBun_832x472:1-3-product-tile-desktop?wid=765&hei=472&dpr=off",
+          image: "",
         },
         {
           id: 10,
           name: "Roselios Silent",
           price: 1.3,
           type: "Linear",
-          description: "lorem",
-          image:
-            "https://s7d1.scene7.com/is/image/mcdonalds/DC_202006_0003_Cheeseburger_StraightBun_832x472:1-3-product-tile-desktop?wid=765&hei=472&dpr=off",
+          description:
+            "Roselio silents are the quietest linear switches on the market, perfect for a work enviorment while still being smooth.",
+          image: "",
         },
       ],
     };
@@ -107,24 +103,23 @@ export default {
 </script>
 
 <template>
-  <div class="storeCards">
-    <storeInventory
-      v-for="item in items"
-      :name="item.name"
-      :price="item.price"
-      :image="item.image"
-      :description="item.description"
-      :type="item.type"
-    />
-  </div>
+  <storeInventory
+    v-for="item in items"
+    :name="item.name"
+    :price="item.price"
+    :image="item.image"
+    :description="item.description"
+    :type="item.type"
+  />
 </template>
 
 <style>
-.storeCards {
+.coolcard {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
-  scale: 50%;
+  scale: 80%;
 }
 </style>

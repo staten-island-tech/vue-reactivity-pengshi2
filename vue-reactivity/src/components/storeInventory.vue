@@ -1,7 +1,7 @@
 <template>
   <div class="coolcard">
     <h2>{{ name }}</h2>
-    <h3 class="cost">${{ price }}</h3>
+    <p class="cost">${{ price }}</p>
     <img :src="getImage" alt="" />
     <p class="description">{{ description }}</p>
     <p class="type">{{ type }}</p>
@@ -26,8 +26,4 @@ export default {
 };
 </script>
 
-<style scoped>
-.coolcard {
-  background-color: red;
-}
-</style>
+<style scoped></style>

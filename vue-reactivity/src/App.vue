@@ -12,7 +12,6 @@ import StoreInventory from "./components/storeInventory.vue";
 <template>
   <RouterLink to="/">Home</RouterLink>
   <RouterLink to="/about">About</RouterLink>
-
   <RouterView />
 </template>
 
@@ -21,5 +20,6 @@ html,
 body {
   margin: 0;
   padding: 0;
+  background-color: red;
 }
 </style>
