@@ -2,9 +2,12 @@
   <div class="coolcard">
     <h2>{{ name }}</h2>
     <p class="price">${{ price }}</p>
+    <br />
     <img :src="getImage" alt="" />
+    <br />
     <p class="description">{{ description }}</p>
-    <p class="type">Type: {{ type }}</p>
+    <br />
+    <p class="condition">Condition: {{ condition }}</p>
   </div>
 </template>
 
@@ -16,7 +19,7 @@ export default {
     price: Number,
     description: String,
     image: String,
-    type: String,
+    condition: String,
   },
   computed: {
     getImage: function () {

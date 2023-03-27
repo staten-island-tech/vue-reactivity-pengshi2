@@ -8,94 +8,104 @@ export default {
       items: [
         {
           id: 1,
-          name: "Gateron Red",
-          type: "Linear",
-          price: 0.35,
+          name: "Bayonet | Night",
+          price: 450,
+          condition: "Minimal Wear",
           description:
-            "Gateron red is the most commonly used Gateron switch because it is a linear switch, making the typing sound quieter. The pressure is more moderate, light, and prolonged periods of typing will not feel tired. They are suitable for a variety of scenarios and also suitable for most people to use.",
-          image: "",
+            "It has individual parts spray-painted solid colors in a night ops color scheme.",
+          image:
+            "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_bayonet_so_night_light_large.11b2117af2e0f240111305857ab93e0091e347ed.png",
         },
         {
           id: 2,
-          name: "Kaihl Box Creams",
-          price: 1.5,
-          type: "Linear",
+          name: "Butterfly Knife | Crimson Web",
+          price: 1300,
+          condition: "Field-Tested",
           description:
-            "Known for their ultra-smooth travel, Cream switches are a top choice among linear fans in search of a truly seamless typing experience.",
-          image: "",
+            "It has been painted using a spider web-patterned hydrographic over a red base coat and finished with a semi-gloss topcoat.",
+          image:
+            "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_butterfly_hy_webs_light_large.8e3a3668a8678a4ce56b2675c60d7ec6a756827a.png",
         },
         {
           id: 3,
-          name: "Kaihl Box Jades",
-          price: 0.4,
-          type: "Clicky",
+          name: "Huntsman Knife | Slaughter",
+          price: 360,
+          condition: "Minimal Wear",
           description:
-            "Known for being extremely clicky and tactile, these switches are very loud and satisfying, great for typing but not so much gaming.",
-          image: "",
+            "It has been painted in a zebra-stripe pattern with aluminum and chrome paints with various reflectivities, and has then been covered with a tomato red candy coat.",
+          image:
+            "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_tactical_am_zebra_light_large.1296d76d34f1e5738524c808f365584a38aaf6bf.png",
         },
         {
           id: 4,
-          name: "Zealios V2",
-          price: 1.1,
-          type: "Tactile",
+          name: "Skeleton Knife | Case Hardened",
+          price: 1450,
+          condition: "Factory New",
           description:
-            "Known as one of the most tactile switches the market has to offer, Zealios V2 are rather expensive however.",
-          image: "",
+            " It has been color case-hardened through the application of wood charcoal at high temperatures.",
+          image:
+            "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_skeleton_aq_oiled_light_large.822bad0bf51e44a83631245c24ca5c2999df0948.png",
         },
         {
           id: 5,
-          name: "Gateron Yellows",
-          price: 0.2,
-          type: "Linear",
+          name: "M9 Bayonet | Doppler",
+          price: 1232,
+          condition: "Factory New",
           description:
-            "Linear switches for people looking for quality switches while on a tight budget. Well renowed for their exceptional performance for price.",
-          image: "",
+            "It has been painted with black and silver metallic paints using a marbleizing medium, then candy coated.",
+          image:
+            "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_m9_bayonet_am_doppler_phase1_light_large.1a9960a6bba1a82aeab00b0207b4ff7c423a1f06.png",
         },
 
         {
           id: 6,
-          name: "Gateron Ink Black V2",
-          price: 0.85,
-          type: "Linear",
+          name: "Gut Knife | Rust Coat",
+          price: 154,
+          condition: "Well-Worn",
           description:
-            "Gateron Black Ink V2's are from Gateron's premium line of switches. They feature a unique housing material and coated spring.  These switches are highly regarded within the community, and arguably one of the smoothest linears. ",
-          image: "",
+            "It is still perfectly operational although the exterior surfaces have rusted.",
+          image:
+            "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_gut_aq_steel_knife_light_large.d56ab6033e5da6115f6af2aba93bae8edde57cb3.png",
         },
         {
           id: 7,
-          name: "Drop Holy Panda X",
-          price: 1,
-          type: "Tactile",
+          name: "Flip Knife | Fade",
+          price: 1150,
+          condition: "Factory New",
           description:
-            "The Holy Panda experience has evolved. Introducing the Holy Panda X: the next iteration of tactile typing, optimized for an authentic feel with unrivaled consistency",
-          image: "",
+            " It has been painted by airbrushing transparent paints that fade together over a chrome base coat.",
+          image:
+            "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_flip_aa_fade_light_large.811f8e8af2e00675c047a9c1e9f04bbe5ace83b1.png",
         },
         {
           id: 8,
-          name: "Kaihl Box Royal",
-          price: 0.2,
-          type: "Tactile",
+          name: "Bowie Knife | Marble Fade",
+          price: 447,
+          condition: "Factory New",
           description:
-            "These switches are extremely tactile, almost as much as Zealios V2 while being a fraction of the cost, great for people who want to try out tactile switches.",
-          image: "",
+            "It has been painted with black and silver metallic paints using a marbleizing medium, then candy coated in three colors.",
+          image:
+            "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_survival_bowie_am_marble_fade_light_large.ee64f39331b11b42f6ef7e00f570bc0da09cf0ee.png",
         },
         {
           id: 9,
-          name: "Cherry MX Brown",
-          price: 0.45,
-          type: "Tactile",
+          name: "Talon Knife | Ultraviolet",
+          price: 700,
+          condition: "Factory New",
           description:
-            "The characteristic of this tactile switch is characterized by a noticeable feedback. The noiseless guidance of the CHERRY MX Brown trains the sure instinct and helps to act tactically and strategically.",
-          image: "",
+            "It has individual parts spray-painted solid colors in a black and purple color scheme.",
+          image:
+            "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_widowmaker_so_purple_light_large.8338e07caf8f6c129754b605709612b5e3d1679d.png",
         },
         {
           id: 10,
-          name: "Roselios Silent",
-          price: 1.3,
-          type: "Linear",
+          name: "Karambit | Gamma Doppler",
+          price: 1700,
+          condition: "Factory New",
           description:
-            "Roselio silents are known for their striking pink stems, and also being the quietest linear switches on the market, perfect for a work enviorment while still being smooth. ",
-          image: "",
+            "It has been painted with black and silver metallic paints using a marbleizing medium, then candy coated.",
+          image:
+            "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_karambit_am_gamma_doppler_phase1_light_large.769cf2ab676ea2a7d7322c258f57bac8dca00336.png",
         },
       ],
     };
@@ -107,10 +117,10 @@ export default {
   <storeInventory
     v-for="item in items"
     :name="item.name"
-    :price="item.price"
     :image="item.image"
+    :price="item.price"
     :description="item.description"
-    :type="item.type"
+    :condition="item.condition"
   />
 </template>
 
@@ -127,5 +137,8 @@ export default {
 body,
 html {
   background-color: red;
+}
+
+img {
 }
 </style>
