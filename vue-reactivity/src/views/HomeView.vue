@@ -131,7 +131,8 @@ export default {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  scale: 80%;
+
+  border: 5px solid black;
 }
 
 body,
