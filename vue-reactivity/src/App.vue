@@ -11,15 +11,8 @@ import StoreInventory from "./components/storeInventory.vue";
 
 <template>
   <RouterLink to="/">Home</RouterLink>
-  <RouterLink to="/about">About</RouterLink>
+  <RouterLink to="/checkout">Checkout</RouterLink>
   <RouterView />
 </template>
 
-<style>
-html,
-body {
-  margin: 0;
-  padding: 0;
-  background-color: red;
-}
-</style>
+<style></style>

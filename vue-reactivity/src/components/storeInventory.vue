@@ -1,13 +1,17 @@
 <template>
   <div class="coolcard">
+    <br />
     <h2>{{ name }}</h2>
     <p class="price">${{ price }}</p>
     <br />
     <img :src="getImage" alt="" />
     <br />
-    <p class="description">{{ description }}</p>
+    <h3 class="description">{{ description }}</h3>
     <br />
     <p class="condition">Condition: {{ condition }}</p>
+    <br />
+    <button class="buy">Add to Cart</button>
+    <button class="remove">Remove from Cart</button>
   </div>
 </template>
 
@@ -29,4 +33,4 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style></style>

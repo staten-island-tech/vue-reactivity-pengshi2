@@ -19,7 +19,7 @@ a,
 
 @media (hover: hover) {
   a:hover {
-    background-color: hsla(0, 100%, 53%, 0.2);
+    background-color: hsla(0, 0%, 100%, 0.2);
   }
 }
 
@@ -31,7 +31,7 @@ a,
 
   #app {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 0 2rem;
+    grid-template-columns: 0.5fr 0.5fr;
+    padding: 0.1rem;
   }
 }

@@ -107,6 +107,28 @@ export default {
           image:
             "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_karambit_am_gamma_doppler_phase1_light_large.769cf2ab676ea2a7d7322c258f57bac8dca00336.png",
         },
+
+        {
+          id: 11,
+          name: "Stiletto Knife | Tiger Tooth",
+          price: 670,
+          condition: "Factory New",
+          description:
+            "It has been anodized orange and hand-etched in a tiger stripe pattern.",
+          image:
+            "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_stiletto_an_tiger_orange_light_large.dd59dfda5a30c3e7b0dbe256831ec91c4405bc34.png",
+        },
+
+        {
+          id: 12,
+          name: "Falchion Knife | Autotronic",
+          price: 300,
+          condition: "Minimal Wear",
+          description:
+            "It has been anodized red and uses steel mesh to lighten the weight.",
+          image:
+            "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_falchion_gs_falchion_autotronic_light_large.6bd228d144c25d432c94cd77a5c41ecb8a31b8fb.png",
+        },
       ],
     };
   },
@@ -126,20 +148,34 @@ export default {
 
 <style>
 .coolcard {
+  background-color: aliceblue;
   text-align: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-
-  border: 5px solid black;
+  margin: 20px auto;
+  border: 1px solid black;
+  padding: 10px;
+  scale: 80%;
+  font-family: "Delicious Handrawn", cursive;
 }
 
 body,
 html {
-  background-color: red;
+  margin: 0;
+  padding: 0;
 }
 
-img {
+.buy {
+  margin-top: 10px;
+  left: 60px;
+  max-height: 15px;
+}
+
+.remove {
+  margin-top: 10px;
+  left: 60px;
+  max-height: 15px;
 }
 </style>
