@@ -5,6 +5,7 @@ export default {
   components: { storeInventory },
   data() {
     return {
+      cart: [],
       items: [
         {
           id: 1,
@@ -129,8 +130,32 @@ export default {
           image:
             "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_falchion_gs_falchion_autotronic_light_large.6bd228d144c25d432c94cd77a5c41ecb8a31b8fb.png",
         },
+
+        {
+          id: 13,
+          name: "Falchion Knife | Autotronic",
+          price: 300,
+          condition: "Minimal Wear",
+          description:
+            "It has been anodized red and uses steel mesh to lighten the weight.",
+          image:
+            "https://steamcdn-a.akamaihd.net/apps/730/icons/econ/default_generated/weapon_knife_falchion_gs_falchion_autotronic_light_large.6bd228d144c25d432c94cd77a5c41ecb8a31b8fb.png",
+        },
       ],
     };
+  },
+
+  methods: {
+    addItemsToCart(item) {
+      console.log(item);
+    },
+  },
+  removeItemFromCart() {
+    this.cart.splice(this.cart.indexOf(item));
+  },
+
+  navigateTo(page) {
+    this.page = page;
   },
 };
 </script>
@@ -154,10 +179,11 @@ export default {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
+  justify-content: space-evenly;
   margin: 20px auto;
   border: 1px solid black;
   padding: 10px;
-  scale: 80%;
+  scale: 70%;
   font-family: "Delicious Handrawn", cursive;
 }
 
@@ -169,13 +195,13 @@ html {
 
 .buy {
   margin-top: 10px;
-  left: 60px;
-  max-height: 15px;
+  left: 30px;
+  max-height: 18px;
 }
 
 .remove {
   margin-top: 10px;
-  left: 60px;
-  max-height: 15px;
+  left: 30px;
+  max-height: 18px;
 }
 </style>
