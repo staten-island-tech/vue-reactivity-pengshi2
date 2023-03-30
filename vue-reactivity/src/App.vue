@@ -3,15 +3,14 @@ export default {
   data() {
     return {};
   },
-  components: { StoreInventory },
+  components: {},
 };
 import { RouterLink, RouterView } from "vue-router";
-import StoreInventory from "./components/storeInventory.vue";
 </script>
 
 <template>
   <header class="header">CSGO SKINS</header>
-  <RouterLink class="router" id="chese" to="/">Home</RouterLink>
+  <RouterLink class="router" id="chese" to="/">Shop</RouterLink>
   <RouterLink class="router" id="chese" to="/cart">View Cart</RouterLink>
   <RouterView />
 </template>
@@ -19,8 +18,9 @@ import StoreInventory from "./components/storeInventory.vue";
 <style>
 .header {
   text-align: center;
-  font-size: 50px;
-  left: 50px;
+  font-size: 40px;
+  left: 100px;
+  border: 1px solid black;
 }
 
 .router {
@@ -28,6 +28,7 @@ import StoreInventory from "./components/storeInventory.vue";
 }
 
 #chese {
+  justify-content: space-evenly;
   width: 5rem;
   max-height: 5rem;
 }
