@@ -10,7 +10,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <header class="header">CSGO SKINS</header>
-  <RouterLink class="router" id="chese" to="/">Shop</RouterLink>
+  <RouterLink class="router" id="chesey" to="/">Shop</RouterLink>
   <RouterLink class="router" id="chese" to="/cart">View Cart</RouterLink>
   <RouterView />
 </template>
@@ -26,10 +26,16 @@ import { RouterLink, RouterView } from "vue-router";
 .router {
   size: 50%;
 }
-
+#chesey {
+  border: 1px solid black;
+  left: 200px;
+  width: 3rem;
+  max-height: 3rem;
+}
 #chese {
+  border: 1px solid black;
   justify-content: space-evenly;
-  width: 5rem;
-  max-height: 5rem;
+  width: 3rem;
+  max-height: 3rem;
 }
 </style>
