@@ -189,6 +189,6 @@ html {
 .buy {
   margin-top: 10px;
   left: 30px;
-  max-height: 18px;
+  max-height: 20px;
 }
 </style>

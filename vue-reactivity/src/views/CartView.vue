@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import storeInventory from "../components/storeInventory.vue";
 export default {
   data() {
     return {
@@ -14,4 +15,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+font-family: "Delicious Handrawn", cursive;
+</style>

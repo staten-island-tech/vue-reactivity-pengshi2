@@ -16,26 +16,35 @@ import { RouterLink, RouterView } from "vue-router";
 </template>
 
 <style>
+.body {
+}
 .header {
   text-align: center;
   font-size: 40px;
   left: 100px;
-  border: 1px solid black;
+  border: 2px solid black;
+  background-color: aliceblue;
+  font-family: "Delicious Handrawn", cursive;
 }
 
-.router {
-  size: 50%;
-}
 #chesey {
-  border: 1px solid black;
+  border: 2px solid black;
   left: 200px;
-  width: 3rem;
-  max-height: 3rem;
+  width: 6rem;
+  text-align: center;
+  max-height: 4rem;
+  font-size: 2rem;
+  justify-content: space-evenly;
+  background-color: aliceblue;
+  font-family: "Delicious Handrawn", cursive;
 }
 #chese {
-  border: 1px solid black;
+  border: 2px solid black;
   justify-content: space-evenly;
-  width: 3rem;
-  max-height: 3rem;
+  width: 6rem;
+  max-height: 4rem;
+  text-align: center;
+  background-color: aliceblue;
+  font-family: "Delicious Handrawn", cursive;
 }
 </style>

@@ -5,11 +5,12 @@
     <img :src="getImage" alt="" />
     <h3 class="description">{{ description }}</h3>
     <p class="condition">Condition: {{ condition }}</p>
-    <button v-on:click="addItemToCart(item)" class="buy">Add to Cart</button>
+    <button @click="addItemToCart()" class="buy">Add to Cart</button>
   </div>
 </template>
 
 <script>
+import CartView from "../views/CartView.vue";
 export default {
   name: "storeInventory",
   props: {
@@ -22,6 +23,12 @@ export default {
   computed: {
     getImage: function () {
       return this.image;
+    },
+  },
+
+  methods: {
+    addItemToCart() {
+      this.items.push([cart]);
     },
   },
 };
