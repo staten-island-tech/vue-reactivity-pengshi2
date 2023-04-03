@@ -1,13 +1,13 @@
 <script>
 import storeInventory from "../components/storeInventory.vue";
 import CartView from "./CartView.vue";
-import { store } from "../components/store.js";
+import { store } from "../components/store";
 export default {
   name: "HomeView",
   components: { storeInventory, CartView },
   data() {
     return {
-      cart: [],
+      store,
       items: [
         {
           id: 1,

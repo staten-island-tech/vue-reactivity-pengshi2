@@ -10,11 +10,6 @@
 </template>
 
 <script>
-import { reactive } from "vue";
-export { cart };
-const cart = reactive({
-  cart: [],
-});
 import CartView from "../views/CartView.vue";
 import { store } from "./store";
 export default {
@@ -34,16 +29,12 @@ export default {
 
   methods: {
     buy: function () {
-      store.cart.push(`${this.name}:` + `${this.Price}`);
-    },
-    real() {
       store.cart.push({
         name: this.name,
         price: this.price,
         image: this.image,
         condition: this.condition,
       });
-      console.log(this.store.cart);
     },
   },
 };
