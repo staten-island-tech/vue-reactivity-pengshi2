@@ -8,10 +8,9 @@
 import storeInventory from "../components/storeInventory.vue";
 export default {
   data() {
-    return {
-      cart: [],
-    };
+    return {};
   },
+  props: { items: String },
 };
 </script>
 

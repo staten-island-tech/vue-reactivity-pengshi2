@@ -5,12 +5,18 @@
     <img :src="getImage" alt="" />
     <h3 class="description">{{ description }}</h3>
     <p class="condition">Condition: {{ condition }}</p>
-    <button @click="addItemToCart()" class="buy">Add to Cart</button>
+    <button @click="buy" class="buy">Add to Cart</button>
   </div>
 </template>
 
 <script>
+import { reactive } from "vue";
+export { cart };
+const cart = reactive({
+  cart: [],
+});
 import CartView from "../views/CartView.vue";
+import { store } from "./store";
 export default {
   name: "storeInventory",
   props: {
@@ -27,8 +33,17 @@ export default {
   },
 
   methods: {
-    addItemToCart() {
-      this.items.push([cart]);
+    buy: function () {
+      store.cart.push(`${this.name}:` + `${this.Price}`);
+    },
+    real() {
+      store.cart.push({
+        name: this.name,
+        price: this.price,
+        image: this.image,
+        condition: this.condition,
+      });
+      console.log(this.store.cart);
     },
   },
 };

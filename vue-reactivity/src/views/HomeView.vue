@@ -1,8 +1,10 @@
 <script>
 import storeInventory from "../components/storeInventory.vue";
+import CartView from "./CartView.vue";
+import { store } from "../components/store.js";
 export default {
   name: "HomeView",
-  components: { storeInventory },
+  components: { storeInventory, CartView },
   data() {
     return {
       cart: [],
@@ -146,6 +148,13 @@ export default {
       return this.image;
     },
   },
+
+  methods: {
+    viewProduct(item) {
+      this.item = item;
+      console.log(this.item);
+    },
+  },
 };
 </script>
 
@@ -161,6 +170,8 @@ export default {
     :description="item.description"
     :condition="item.condition"
   />
+
+  <div class="everything"></div>
 </template>
 
 <style>
