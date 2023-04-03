@@ -170,8 +170,6 @@ export default {
     :description="item.description"
     :condition="item.condition"
   />
-
-  <div class="everything"></div>
 </template>
 
 <style>

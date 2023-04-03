@@ -10,7 +10,6 @@
 </template>
 
 <script>
-
 import { store } from "./store";
 export default {
   name: "storeInventory",
@@ -33,6 +32,7 @@ export default {
         name: this.name,
         price: this.price,
         condition: this.condition,
+        image: this.image,
       });
     },
   },
