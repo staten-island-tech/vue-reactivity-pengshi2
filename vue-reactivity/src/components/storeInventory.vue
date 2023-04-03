@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import CartView from "../views/CartView.vue";
+
 import { store } from "./store";
 export default {
   name: "storeInventory",
@@ -32,7 +32,6 @@ export default {
       store.cart.push({
         name: this.name,
         price: this.price,
-        image: this.image,
         condition: this.condition,
       });
     },
