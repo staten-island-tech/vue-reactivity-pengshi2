@@ -13,6 +13,7 @@
       :price="item.price"
       :condition="item.condition"
     />
+    <button @click="remove(index)" class="remove">Remove</button>
   </div>
 </template>
 
@@ -43,6 +44,12 @@ export default {
     image: String,
     condition: String,
   },
+
+  methods: {
+    remove(index) {
+      store.cart.splice(index, 1);
+    },
+  },
 };
 </script>
 
@@ -59,7 +66,12 @@ export default {
   margin: 20px auto;
   border: 1px solid black;
   padding: 10px;
-  scale: 70%;
+  scale: 30%;
   font-family: "Delicious Handrawn", cursive;
+}
+
+.remove {
+  size: 40%;
+  height: 1rem;
 }
 </style>
